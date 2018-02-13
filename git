@@ -1,0 +1,16 @@
+# commit changes to local branch
+git add -A
+git commit -m "message"
+
+# push local branch to remote branch
+git push -u origin <branch-name>
+
+# ammend msg
+git commit --ammend -m "message"
+
+# stash current uncommitted to work on another branch
+git stash
+
+# get stashed work back and apply to current branch
+git stash pop
+
